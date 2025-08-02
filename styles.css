@@ -23,7 +23,7 @@
 }
 
 .outfit{
-    font-family: "Outfit";
+    font-family: "Outfit" serif;
 }
 
 .youngSerif{
@@ -98,7 +98,6 @@ p{
 }
 
 .healthInfo{
-    text-align: center;
     padding: 2rem;
     border-collapse: collapse;
     width: 17.188rem;
@@ -133,7 +132,7 @@ td{
     font-weight: 700;
 }
 
-@media (min-width: 600px){
+@media (min-width: 37.5rem){
 
     body{
         min-height: 200vh;
