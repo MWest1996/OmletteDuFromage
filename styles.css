@@ -23,7 +23,7 @@
 }
 
 .outfit{
-    font-family: "Outfit" serif;
+    font-family: "Outfit", serif;
 }
 
 .youngSerif{
@@ -43,7 +43,7 @@
 }
 
 body{
-    background-color: var(--color-stone-150);
+    background-color: var(--color-stone-100);
     display: flex;
     flex-direction: column;
 }
@@ -84,17 +84,27 @@ p{
     background-color: var(--color-rose-50);
     width: 15.625rem;
     margin: auto;
-    padding-left: 2rem;
+    padding-left: 3rem;
+    margin-bottom: 1rem;
     border-radius: 0.313rem;
 }
 
 .prep h2{
     color: var(--color-rose-800);
-    padding-top: 1rem;
+    margin: 1.5rem 0 1rem 0;
+    font-size: 1.3rem;
 }
 
 .prep ul li{
-    padding: .5rem 1rem .5rem .5rem;
+    padding: .5rem 1rem 0rem 1rem;
+}
+
+.prep ul li::marker{
+    color: var(--color-rose-800);
+}
+
+.prep ul li:last-child{
+    padding-bottom: 2rem;
 }
 
 .healthInfo{
@@ -107,6 +117,7 @@ p{
 
 .noBorder{
     border: none;
+    padding-bottom: 2rem;
 }
 
 td{
@@ -123,13 +134,18 @@ td{
 
 .mainLists ol li,
 .mainLists ul li{
-    padding: 0rem 0rem .75rem;
+    padding: 0rem 0rem .75rem 1REM;
     line-height: 1.25rem;
+    color: var(--color-stone-600);
 }
 
 .mainLists li::marker{
     color: var(--color-brown-800);
     font-weight: 700;
+}
+
+.stoneText{
+    color: var(--color-stone-600);
 }
 
 @media (min-width: 37.5rem){
@@ -150,9 +166,9 @@ td{
         width: 85%;
     }
     img{
-        width:95%;
+        width:90%;
         margin: auto;
-        margin-top: 1rem;
+        margin-top: 2rem;
         border-radius: 1rem;
     }
 
